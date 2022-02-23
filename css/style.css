@@ -37,6 +37,39 @@ nav ul li {
 
 nav ul li:hover {
     background-color: #8c92a2;
+    /* ANIMACION DE MENU */
+    border-radius: 10px;
+    transform: scale(1.5);
+    transition: all 0.5s ease-in-out;
+}
+
+ol li{
+    font-size:x-large;
+    background-color: rgb(145, 192, 238);
+    text-transform: capitalize;
+    font-weight: bolder;
+    padding: 10px;
+}
+
+ol li:hover{
+    /* ANIMACION DE ESPECIALIDADES */
+    transition: all 2s ease;
+    transform: translateX(50px);
+    background-color: rgb(238, 148, 145);
+}
+
+/* ANIMACION DE IMAGEN */
+#imagen:hover {
+    transition: all 0.5s ease;
+    transform: scale(1.1);
+    
+}
+
+#logo:active{
+    transition: all 0.5s ease;
+        /*MONKE FLIP*/
+    transform: rotate(360deg);
+
 }
 
 aside,
@@ -132,6 +165,7 @@ nav ul li {
     align-items: center;
     justify-content: center;
     padding: 5px;
+
 }
 
 body {
