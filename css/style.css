@@ -71,6 +71,10 @@ ol li:hover{
 
 }
 
+.container div :not(footer){ 
+    margin: 10px;
+}
+
 aside,
 article,
 .ad {
@@ -82,7 +86,6 @@ article,
 
 footer {
     text-align: center;
-    padding: 1em;
     background-color: #757a86;
     bottom: 0;
     margin-top: auto;
