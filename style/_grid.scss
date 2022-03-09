@@ -1,0 +1,60 @@
+/*GRID AREAS*/
+.main__header {
+    grid-area: header;
+}
+
+.content {
+    grid-area: contenido;
+}
+
+.main__nav {
+    grid-area: nav;
+}
+
+.aside {
+    grid-area: aside;
+}
+
+.ad {
+    grid-area: ad;
+}
+
+.main_footer {
+    grid-area: footer;
+}
+
+.wrapper {
+    display: grid;
+    gap: 10px;
+    grid-template-areas:
+        "header"
+        "nav"
+        "contenido"
+        "sidebar"
+        "ad"
+        "footer"
+    ;
+    justify-items: center
+}
+
+nav{
+    ul {
+        display: flex;
+        flex-direction: column;
+        li {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-inline-start: 100px;
+        }
+    }
+}
+
+body {
+    background-color: #E5E9F2
+}
+
+.navbar-collapse {
+    flex-grow: initial;
+    display: flex;
+}
