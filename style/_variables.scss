@@ -1,2 +1,27 @@
 $headerColor: #E5E9F2;
 $hoverColor: #8c92a2;
+
+/*MAPEO*/
+$especialidades:(
+    hematologia: red,
+    microbiologia: green,
+    bioquimica: blue,
+    biologiaMolecular: cyan,
+    toxicologia: gray,
+);
+/*BUCLE*/
+@each $esp, $color in $especialidades {
+    .btn--#{$esp}{
+        background-color: $color;
+    }
+}
+/*MIXIN*/
+@mixin size ($width, $height) {
+    height: $height;
+    width: $width;
+}
+
+.mi_mixin{
+    @include size (200px, 200px);
+    background-color:brown;
+}

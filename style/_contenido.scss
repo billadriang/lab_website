@@ -21,6 +21,12 @@ ol{
     }
 }
 
+.formulariom{
+    background-color:aliceblue;
+    border-radius: 20px;
+}
+/*EXTEND*/
 .formulario{
+    @extend .formulariom;
     padding: 2rem;
     }
