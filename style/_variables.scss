@@ -3,11 +3,11 @@ $hoverColor: #8c92a2;
 
 /*MAPEO*/
 $especialidades:(
-    hematologia: red,
-    microbiologia: green,
-    bioquimica: blue,
-    biologiaMolecular: cyan,
-    toxicologia: gray,
+    hematologia: #ffb6af,
+    microbiologia: #b0f2c2,
+    bioquimica: #bae0f5,
+    biologiaMolecular: #d1eaf9,
+    toxicologia: #bdbfbf,
 );
 /*BUCLE*/
 @each $esp, $color in $especialidades {
