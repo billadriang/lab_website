@@ -2,26 +2,28 @@ $headerColor: #E5E9F2;
 $hoverColor: #8c92a2;
 
 /*MAPEO*/
-$especialidades:(
-    hematologia: #ffb6af,
+$especialidades:(hematologia: #ffb6af,
     microbiologia: #b0f2c2,
     bioquimica: #bae0f5,
     biologiaMolecular: #d1eaf9,
     toxicologia: #bdbfbf,
 );
+
 /*BUCLE*/
-@each $esp, $color in $especialidades {
-    .btn--#{$esp}{
+@each $esp,
+$color in $especialidades {
+    .btn--#{$esp} {
         background-color: $color;
     }
 }
+
 /*MIXIN*/
 @mixin size ($width, $height) {
     height: $height;
     width: $width;
 }
 
-.mi_mixin{
+.mi_mixin {
     @include size (200px, 200px);
-    background-color:brown;
+    background-color: brown;
 }

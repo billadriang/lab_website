@@ -4,12 +4,14 @@ header {
     width: 100%;
     position: sticky;
     top: 1px;
-    ul{
-        li{
+
+    ul {
+        li {
             list-style: none;
             text-transform: capitalize;
             font-weight: bolder;
-            &:hover{
+
+            &:hover {
                 background-color: $hoverColor;
                 /* ANIMACION DE MENU */
                 border-radius: 10px;

@@ -1,33 +1,36 @@
-ol{
-    li{
-        font-size:x-large;
+ol {
+    li {
+        font-size: x-large;
         background-color: rgb(145, 192, 238);
         text-transform: capitalize;
         font-weight: bolder;
         padding: 10px;
-        &:hover{
-                /* ANIMACION DE ESPECIALIDADES */
-                transition: all 2s ease;
-                transform: translateX(50px);
-                background-color: rgb(238, 148, 145);
-            }
+
+        &:hover {
+            /* ANIMACION DE ESPECIALIDADES */
+            transition: all 2s ease;
+            transform: translateX(50px);
+            background-color: rgb(238, 148, 145);
         }
-    }
-#imagen{
-    &:hover{
-        transition: all 0.5s ease;
-        transform: scale(1.1);
-        
     }
 }
 
-.formulariom{
-    background-color:white;
+#imagen {
+    &:hover {
+        transition: all 0.5s ease;
+        transform: scale(1.1);
+
+    }
+}
+
+.formulariom {
+    background-color: white;
     border-radius: 20px;
 }
+
 /*EXTEND*/
-.formulario{
+.formulario {
     @extend .formulariom;
     padding: 2rem;
-    }
+}
 

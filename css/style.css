@@ -21,6 +21,18 @@
   width: 200px;
   background-color: brown; }
 
+@media only screen and (max-width: 600px) {
+  .texto {
+    width: 90vw; }
+  .imagen {
+    width: 80vw; }
+  .video {
+    width: 70vw; }
+  .mapa {
+    width: 60vw; }
+  .formulario {
+    width: 90vw; } }
+
 * {
   padding: 0;
   margin: 0; }
@@ -111,7 +123,12 @@ ol li {
 
 .wrapper {
   display: grid;
-  grid-template-areas: "header" "nav" "contenido" "sidebar" "ad" "footer";
+  grid-template-areas: "header"
+ "nav"
+ "contenido"
+ "sidebar"
+ "ad"
+ "footer";
   justify-items: center; }
 
 nav ul {
